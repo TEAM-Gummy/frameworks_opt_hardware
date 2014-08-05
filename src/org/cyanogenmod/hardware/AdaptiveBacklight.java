@@ -46,4 +46,12 @@ public class AdaptiveBacklight {
      */
     public static boolean setEnabled(boolean status) { return false; }
 
+    /**
+     * This method allows to setup adaptive backlight technology mode.
+     *
+     * @param mode The new adaptive backlight mode
+     */
+    public static boolean setModeEnabled(int mode) {
+        throw new UnsupportedOperationException();
+    }
 }
