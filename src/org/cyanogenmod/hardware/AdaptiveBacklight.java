@@ -38,6 +38,14 @@ public class AdaptiveBacklight {
     public static boolean isEnabled() { return false; }
 
     /**
+     * This method returns the current mode of the configurable adaptive backlight technology.
+     *
+     */
+    public static int getcurrentMode() {
+        return -1;
+    }
+
+    /**
      * This method allows to setup adaptive backlight technology status.
      *
      * @param status The new adaptive backlight status
